@@ -12,9 +12,6 @@ L’accent est mis sur :
 - la comparaison rigoureuse de leurs performances,
 - l’analyse critique des résultats obtenus.
 
-Le projet est réalisé au niveau **Master (M2)** et vise autant la qualité de
-l’analyse que les performances des agents entraînés.
-
 ---
 
 ## 2. Description de l’environnement
@@ -27,8 +24,6 @@ l’analyse que les performances des agents entraînés.
 L’environnement simule un robot bipède devant apprendre à marcher de manière autonome
 sans tomber, sur un terrain généré procéduralement.
 
-Une version plus difficile, **BipedalWalkerHardcore-v3**, est également utilisée pour
-tester la robustesse des politiques en présence d’obstacles physiques (trous, marches).
 
 ---
 
