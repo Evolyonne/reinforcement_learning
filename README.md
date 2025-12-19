@@ -159,13 +159,13 @@ Les performances de PPO sont analysées à travers les courbes de récompense pa
 pour la version de base et la version améliorée, ainsi qu’un tableau comparatif.
 
 **PPO — version de base**  
-![PPO Base](PPO_BASE.png)
+![PPO Base](./PPO_BASE.png)
 
 **PPO — version améliorée**  
-![PPO Improved](PPO_AMEL.png)
+![PPO Improved](./PPO_AMEL.png)
 
 **Tableau comparatif PPO**  
-![Table PPO](Tab_PPO.png)
+![Table PPO](./Tab_PPO.png)
 
 ---
 
@@ -176,13 +176,13 @@ Les courbes d’apprentissage illustrent la vitesse de convergence et la stabili
 complétées par un tableau comparatif.
 
 **A2C — version de base**  
-![A2C Base](A2C.webp)
+![A2C Base](./A2C.webp)
 
 **A2C — version améliorée**  
-![A2C Improved](A2C_improved.webp)
+![A2C Improved](./A2C_improved.webp)
 
 **Tableau comparatif A2C**  
-![Table A2C](Tab_A2C.webp)
+![Table A2C](./Tab_A2C.webp)
 
 ---
 
@@ -191,7 +191,7 @@ complétées par un tableau comparatif.
 Une comparaison globale est réalisée entre les meilleures configurations de
 **PPO, A2C, SAC et TD3**, à l’aide d’un graphique synthétique.
 
-![Comparaison globale](BoxPlot.webp)
+![Comparaison globale](./BoxPlot.webp)
 
 ---
 
