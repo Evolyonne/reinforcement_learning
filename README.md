@@ -165,7 +165,12 @@ pour la version de base et la version améliorée, ainsi qu’un tableau compara
 ![PPO Improved](./PPO_AMEL.png)
 
 **Tableau comparatif PPO**  
-![Table PPO](./Tab_PPO.png)
+
+| Version | Mean | Std | Train time (s) |
+|---|---:|---:|---:|
+| PPO (ancien) | 262.199370 | 68.470362 | 455.375348 |
+| PPO improved | 298.658828 | 21.053911 | 1267.614374 |
+
 
 ---
 
@@ -182,16 +187,26 @@ complétées par un tableau comparatif.
 ![A2C Improved](./A2C_improved.webp)
 
 **Tableau comparatif A2C**  
-![Table A2C](./Tab_A2C.webp)
+
+| Version | Mean | Std | Train time (s) |
+|---|---:|---:|---:|
+| A2C (base) | -74.460031 | 85.275494 | 2434.428460 |
+| A2C improved | 116.784568 | 3.965608 | 2245.816760 |
+
 
 ---
 
 ### Comparaison globale
 
 Une comparaison globale est réalisée entre les meilleures configurations de
-**PPO, A2C, SAC et TD3**, à l’aide d’un graphique synthétique.
+**PPO,SAC et TD3**, à l’aide d’un graphique synthétique.
 
-![Comparaison globale](./BoxPlot.webp)
+| Algorithme | Score moyen | Ecarts-types | Temps entraînement (min) | Multi-env |
+|---|---:|---:|---:|---|
+| PPO | 292.146676 | 2.079574 | 13.838509 | Oui (4) |
+| SAC | 315.932089 | 0.955615 | 133.740442 | Oui (2) |
+| TD3 | 310.548155 | 0.727421 | 116.193804 | Oui (2) |
+
 
 ---
 
